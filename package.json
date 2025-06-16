@@ -16,8 +16,7 @@
   ],
   "author": "Your Name",
   "license": "MIT",
-  "dependencies": {
-    "vite": "^2.0.0"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
 }
