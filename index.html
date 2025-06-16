@@ -1,13 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Trip-Go Lite</title>
+  <link rel="stylesheet" href="/src/css/main.css">
+</head>
+<body>
+  <header><h1>Trip-Go Lite</h1></header>
+
+  <main>
+    <section class="search-bar">
+      <input id="searchInput" placeholder="Search city or attraction…" required>
+      <button id="searchBtn">Explore</button>
+    </section>
+
+    <section id="results" class="card-grid"></section>
+  </main>
+
+  <footer><a href="map.html">Map&nbsp;View</a></footer>
+  <script type="module" src="/src/js/main.js"></script>
+</body>
 </html>

@@ -1,14 +1,23 @@
 {
   "name": "trip-go-lite",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "A lightweight travel planning application that allows users to search for places and view them on a map.",
+  "main": "src/js/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^6.3.5"
-  }
+  "keywords": [
+    "travel",
+    "planning",
+    "map",
+    "search"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^2.0.0"
+  },
+  "devDependencies": {}
 }
