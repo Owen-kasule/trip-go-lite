@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "preview": "vite preview"
   },
   "keywords": [
     "travel",
@@ -16,6 +16,9 @@
   ],
   "author": "Your Name",
   "license": "MIT",
+  "dependencies": {
+    // …
+  },
   "devDependencies": {
     "vite": "^6.3.5"
   }
